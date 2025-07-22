@@ -1,9 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    experimental: {
-        appDir: true
-        // supprime complètement swcPlugins pour éviter les erreurs
-    },
+    experimental: {},
     images: {
         domains: [
             "res.cloudinary.com",
