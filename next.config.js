@@ -1,10 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     experimental: {
-        appDir: true,
-        swcPlugins: [
-            ["next-superjson-plugin", {}]
-        ]
+        appDir: true
+        // supprime complètement swcPlugins pour éviter les erreurs
     },
     images: {
         domains: [
